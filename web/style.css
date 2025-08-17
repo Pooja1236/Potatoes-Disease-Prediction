@@ -76,3 +76,46 @@ button:hover {
     font-size: 16px;
     color: #000000;
 }
+
+#analysis {
+    margin-top: 20px;
+    background: rgba(255, 255, 255, 0.7);
+    padding: 10px;
+    border-radius: 6px;
+    text-align: left;
+}
+
+.chat-container {
+    margin-top: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 10px;
+    max-width: 600px;
+}
+
+.chat-box {
+    max-height: 300px;
+    overflow-y: auto;
+    margin-bottom: 10px;
+    padding: 5px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background: #fafafa;
+}
+
+.message {
+    padding: 8px 12px;
+    margin: 6px 0;
+    border-radius: 12px;
+    max-width: 80%;
+}
+
+.message.ai {
+    background-color: #e1f0ff;
+    align-self: flex-start;
+}
+
+.message.farmer {
+    background-color: #d4ffd6;
+    align-self: flex-end;
+}
