@@ -6,3 +6,7 @@ pillow
 tensorflow-serving-api
 matplotlib
 numpy
+google-generativeai
+SQLAlchemy
+python-dotenv
+markdown
